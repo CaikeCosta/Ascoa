@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&family=Lato&family=Montserrat:wght@400;600&family=Poppins&display=swap');
+
+:root {
+    --cor-1: #00171F;
+    --cor-2: #001021;
+    --cor-3: #F0F3F5;
+    --cor-4: #EC2D01;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-3);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: var(--cor-2);
+    font-size: 14px;
+}
+
+
+header, .navbar {
+    background-color: var(--cor-1);
+    padding-left: 12rem;
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 16px;
+}
+
+#navbar-links a {
+    color: var(--cor-3);
+    transition: .2s;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#navbar-links a:hover {
+    color: var(--cor-4);
+}
+
+/* Slider */
+
+.container-fluid {
+    padding: 0;
+}
+
+.parallax {
+    min-height: 90vh;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 95vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: var(--cor-3);
+}
+
+.destaqueTexto {
+    color: var(--cor-4);
+}
+
+.destaqueTexto:hover {
+    color: var(--cor-4);
+    text-decoration: none;
+}
+
+.main-btn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--cor-4);
+    color: var(--cor-3);
+    text-transform: uppercase;
+    width: 200px;
+    height: 600px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: var(--cor-3);
+    background-color: transparent;
+    border-color: var(--cor-4);
+}
+
+/* Sobre a empresa */
+
+#about-href {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -92px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+#about-img {
+    border-radius: 8px;
+    filter: contrast(110%);
+}
+
+.main-title {
+    color: var(--cor-2);
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid var(--cor-1);
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 20px;
+    color: var(--cor-2);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#about-first-paragraph {
+    margin-top: 30px;
+}
+
+.about-paragraph {
+    font-size: 17px;
+    color: var(--cor-1);
+}
+
+/* Especialidades */
+
+#services-href {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -92px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.services-image {
+    height: 128px;
+    margin-bottom: 20px;
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box p {
+    font-size: 18px;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Missao */
+
+#mission-href {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -92px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+/* Clientes */
+
+#clients-href {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -92px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.card {
+    margin-bottom: 32px;
+}
+
+.client-image {
+    height: 216px;
+}
+
+#Adipec, #Ypioca {
+    margin-top: 44px;
+    height: 172px;
+    margin-left: 64px;
+    width: 218px;
+}
+
+#Adipec {
+    width: 218px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Contato */
+
+#contact-href {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    margin-top: -92px;
+    background-color: transparent;
+    z-index: -1;
+}
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--cor-4);
+}
+
+.contact-box i {
+    color: var(--cor-2);
+    border: 1px solid var(--cor-2);
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: 900;
+    color: var(--cor-4);
+}
+
+#msg-form p {
+    font-size: 22px;
+}
+
+#contact-form input[type="email"], #contact-form input[type="text"], #contact-form textarea {
+    margin-bottom: 15px;
+}
+
+#contact-form .main-btn {
+    margin-top: 16px;
+    width: 120px;
+    height: 50px;
+    
+}
+
+#contact-form .main-btn:hover {
+    color: var(--cor-4);
+}
+
+/* Copy */
+
+#copy-area {
+    background-color: var(--cor-2);
+}
+
+#copy-area .container {
+    padding: 10 0px;
+    text-align: center;
+}
+
+#copy-area .container p{
+    font-size: 24px;
+    color: var(--cor-3);
+    margin-bottom: 0;
+}
