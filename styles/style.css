@@ -531,3 +531,40 @@ header, .navbar {
         top: 90px;
     }
 }
+
+@media(max-width: 320px) {
+    /* Navbar */
+    .navbar img {
+        height: 56px;
+    }
+
+    /* Slider */
+
+    #mainSlider .carousel-caption {
+        top: 10%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 25px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 16px;
+    }
+
+     /* Sobre */
+    
+    #about-area img {
+        margin: 0 0 20px 0px
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    /* Clientes */
+
+    .card {
+        margin-left:22px;
+    }
+}
