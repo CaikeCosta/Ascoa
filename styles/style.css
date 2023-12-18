@@ -300,6 +300,11 @@ header, .navbar {
     margin-bottom: 15px;
 }
 
+.form-control:focus {
+    border-color: var(--cor-4);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--cor-4);
+}
+
 #contact-form .main-btn {
     margin-top: 16px;
     width: 120px;
@@ -326,4 +331,168 @@ header, .navbar {
     font-size: 24px;
     color: var(--cor-3);
     margin-bottom: 0;
+}
+
+/* Responsive */
+
+@media(max-width: 768px) {
+
+    /* Gerais */
+
+    .container {
+        padding: 24px 0;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        margin-top: 14px;
+        margin-left: 92px;
+    }
+
+    /* Slider */
+
+    #mainSlider {
+        margin-bottom: 54px;
+    }
+
+    .parallax {
+        width: 100vh;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 25%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    /* Services */
+
+    .service-box p {
+        font-size: 16px;
+    }
+
+    #services-href {
+        margin-top: -124px;
+    }
+
+    /* Sobre */
+
+    #about-href {
+        margin-top: -124px;
+    }
+
+    #about-area img {
+        height: 30vh;
+        margin-top: 115px;
+    }
+
+    /* Missao */
+
+    #mission-href {
+        margin-top: -124px;
+    }
+
+    /* Clientes */
+    
+    #clients-href {
+        margin-top: -124px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    #Adipec, #Ypioca {
+        margin-top: 44px;
+        margin-left: 24px;
+        width: 156px;
+    }
+    
+    #Adipec {
+        width: 156px;;
+    }
+
+    #Campari{
+        height: 196px;
+    }
+
+    /* Contato */
+
+    #contact-href {
+        margin-top: -124px;
+    }
+}
+
+@media(max-width: 425px) {
+    /* Navbar */
+
+    .navbar img {
+        height: 78px;
+    }
+
+    /* Slider */
+
+    #mainSlider .carousel-caption {
+        top: 15%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 32px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 17px;
+        margin-bottom: 34px;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 14px;
+
+    }
+
+    /* Sobre */
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+       margin: 0 0 20px 35px
+    }
+
+    /* Clientes */
+
+    .card {
+        width: 246px;
+        margin-left: 82px;
+    }
+
+    #Adipec, #Ypioca {
+        height: 192px;
+        margin-left: 48px;
+        width: 156px;
+    }
+    
+    #Adipec {
+        width: 156px;
+    }
 }
