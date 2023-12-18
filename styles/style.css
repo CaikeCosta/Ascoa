@@ -472,18 +472,19 @@ header, .navbar {
     /* Sobre */
 
     .main-title {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     #about-area img {
-       margin: 0 0 20px 35px
+       margin: 0 0 20px 20px
     }
 
     /* Clientes */
 
     .card {
         width: 246px;
-        margin-left: 82px;
+        margin-left: 72px;
+        margin-right: 72px
     }
 
     #Adipec, #Ypioca {
@@ -494,5 +495,39 @@ header, .navbar {
     
     #Adipec {
         width: 156px;
+    }
+}
+
+@media(max-width: 375px) {
+
+    /* Navbar */
+    .navbar img {
+        height: 64px;
+    }
+
+    /* Slider */
+    
+    #mainSlider .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    /* Sobre */
+
+    #about-area img {
+        margin: 0 0 20px 15px
+    }
+
+    /* Clientes */
+
+    .card {
+        width: 246px;
+        margin-left: 52px;
+        margin-right: 72px
+     }
+
+     /* Contato */
+
+    #contact-title::after {
+        top: 90px;
     }
 }
