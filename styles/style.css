@@ -335,6 +335,52 @@ header, .navbar {
 
 /* Responsive */
 
+@media (min-width: 768px) and (max-width : 1023px) {
+
+    /* Gerais */
+
+    .container {
+        padding: 2rem 0;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        padding: 10px 60px;
+    }
+
+    /* Slider */
+
+    .parallax {
+        width: 100vw;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 15%;
+    }
+
+    #mainSlider .carousel-caption p {
+        margin-bottom: 3rem ;
+    }
+
+    /* Clientes */
+
+    .card {
+        height: 20rem;
+    }
+
+    .client-image {
+        width: 100%;
+    }
+
+    #Adipec, #Ypioca {
+        height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 22vw;
+    }
+}
+
 @media (min-width: 425px) and (max-width: 767px) {
 
     /* Gerais */
@@ -345,7 +391,7 @@ header, .navbar {
 
     /* Navbar */
     .navbar {
-        padding: 10px 20px;
+        padding: 10px 30px;
     }
 
     .navbar img {
@@ -367,11 +413,6 @@ header, .navbar {
         width: 100vh;
     }
 
-    #mainSlider .carousel-inner,
-    #mainSlider .carousel-item {
-        height: auto;
-    }
-
     #mainSlider .carousel-caption {
         top: 15%;
     }
@@ -389,10 +430,6 @@ header, .navbar {
 
     .service-box p {
         font-size: 16px;
-    }
-
-    #services-href {
-        margin-top: -124px;
     }
 
     /* Sobre */
@@ -444,10 +481,10 @@ header, .navbar {
     /* Navbar */
 
     .navbar {
-        padding: 10px;
+        padding: 20px;
     }
     .navbar img {
-        height: 68px;
+        height: 62px;
     }
 
     /* Slider */
