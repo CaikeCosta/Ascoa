@@ -335,7 +335,7 @@ header, .navbar {
 
 /* Responsive */
 
-@media(max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
 
     /* Gerais */
 
@@ -344,43 +344,44 @@ header, .navbar {
     }
 
     /* Navbar */
-
     .navbar {
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
+        padding: 10px 20px;
+    }
+
+    .navbar img {
+        height: 68px;
     }
 
     .navbar-nav {
-        display: flex;
-        margin-top: 14px;
-        margin-left: 92px;
+        padding-top: 2vh;
+        margin-left: 5vw;
     }
 
     /* Slider */
 
     #mainSlider {
-        margin-bottom: 54px;
+        margin-bottom: 8vh;
     }
 
     .parallax {
         width: 100vh;
     }
 
-    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    #mainSlider .carousel-inner,
+    #mainSlider .carousel-item {
         height: auto;
     }
 
     #mainSlider .carousel-caption {
-        top: 25%;
+        top: 15%;
     }
 
     #mainSlider .carousel-caption h2 {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     #mainSlider .carousel-caption p {
-        font-size: 20px;
+        font-size: 17px;
         margin-bottom: 60px;
     }
 
@@ -396,25 +397,22 @@ header, .navbar {
 
     /* Sobre */
 
-    #about-href {
-        margin-top: -124px;
-    }
-
     #about-area img {
         height: 30vh;
-        margin-top: 115px;
+        margin-left: 4vw;
+        margin-bottom: 3vh;
     }
 
-    /* Missao */
-
-    #mission-href {
-        margin-top: -124px;
+    .main-title {
+        font-size: 32px;
     }
 
     /* Clientes */
-    
-    #clients-href {
-        margin-top: -124px;
+
+    .card {
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card-title {
@@ -426,30 +424,37 @@ header, .navbar {
         margin-left: 24px;
         width: 156px;
     }
-    
+
     #Adipec {
-        width: 156px;;
+        width: 156px;
     }
 
-    #Campari{
+    #Campari {
         height: 196px;
-    }
-
-    /* Contato */
-
-    #contact-href {
-        margin-top: -124px;
     }
 }
 
-@media(max-width: 425px) {
+@media (min-width: 375px) and (max-width: 424px) {
+
+    /* Gerais */
+    
+    .container {
+        padding: 20px 0px;
+    }
     /* Navbar */
 
+    .navbar {
+        padding: 10px;
+    }
     .navbar img {
-        height: 78px;
+        height: 68px;
     }
 
     /* Slider */
+
+    .parallax {
+         width: 100vh;
+    }
 
     #mainSlider .carousel-caption {
         top: 15%;
@@ -466,7 +471,6 @@ header, .navbar {
 
     .carousel-caption .main-btn {
         font-size: 14px;
-
     }
 
     /* Sobre */
@@ -476,86 +480,68 @@ header, .navbar {
     }
 
     #about-area img {
-       margin: 0 0 20px 20px
+        margin: 0 0 5vh 0;
     }
 
     /* Clientes */
 
+    #contact-title::after {
+        margin-top: 1rem;
+    }
+
     .card {
-        width: 246px;
-        margin-left: 72px;
-        margin-right: 72px
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #Adipec, #Ypioca {
-        height: 192px;
-        margin-left: 48px;
-        width: 156px;
-    }
-    
-    #Adipec {
-        width: 156px;
+        height: 20vh;
+        margin-left: 10vw;
+        width: 30vw;
     }
 }
 
-@media(max-width: 375px) {
+@media(min-width: 320px) and (max-width: 374px) {
+
+    /* Gerais */
+
+    .container {
+        padding: 20px 0px;
+    }
 
     /* Navbar */
+
+    .navbar {
+        padding: 10px 20px;
+    }
     .navbar img {
-        height: 64px;
+        height: 50px;
     }
 
     /* Slider */
-    
-    #mainSlider .carousel-caption h2 {
-        font-size: 28px;
+
+    .parallax {
+        width: 100vh;
     }
-
-    /* Sobre */
-
-    #about-area img {
-        margin: 0 0 20px 15px
-    }
-
-    /* Clientes */
-
-    .card {
-        width: 246px;
-        margin-left: 52px;
-        margin-right: 72px
-     }
-
-     /* Contato */
-
-    #contact-title::after {
-        top: 90px;
-    }
-}
-
-@media(max-width: 320px) {
-    /* Navbar */
-    .navbar img {
-        height: 56px;
-    }
-
-    /* Slider */
 
     #mainSlider .carousel-caption {
         top: 10%;
     }
 
     #mainSlider .carousel-caption h2 {
-        font-size: 25px;
+        font-size: 26px;
     }
 
     #mainSlider .carousel-caption p {
-        font-size: 16px;
+        font-size: 17px;
+        margin-bottom: 3rem;
     }
 
-     /* Sobre */
-    
+    /* Sobre */
+
     #about-area img {
-        margin: 0 0 20px 0px
+        margin: 0 0 10vw 0px
     }
 
     .main-title {
@@ -565,6 +551,15 @@ header, .navbar {
     /* Clientes */
 
     .card {
-        margin-left:22px;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Adipec, #Ypioca {
+        height: 15vh;
+        margin-left: 16vw;
+        width: 30vw;
     }
 }
+
