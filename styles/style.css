@@ -720,6 +720,11 @@ header, .navbar {
 @media (max-height: 852px) {
 
     /*Slider */
+
+    .parallax {
+        width: 100vw;
+    }
+
     .carousel-caption .main-btn {
         display: none;
     }
