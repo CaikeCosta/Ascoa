@@ -333,68 +333,6 @@ header, .navbar {
     margin-bottom: 0;
 }
 
-/* Responsive Height */
-
-@media (max-height: 852px) {
-
-    /*Slider */
-    .carousel-caption .main-btn {
-        display: none;
-    }
-
-    #mainSlider .carousel-caption {
-        top: 30%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 42px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 26px;
-    }
-}
-
-@media (max-height:710px) {
-    /*Slider */
-
-    #mainSlider .carousel-caption {
-        top: 30%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 32px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 22px;
-    }
-}
-
-@media (max-height:656px) {
-
-    /*Slider */
-    #mainSlider .carousel-caption {
-        top: 30%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 32px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 22px;
-    }
-}
-
-@media (max-height:582px) {
-    /*Slider */
-
-    #mainSlider .carousel-caption p {
-        font-size: 18px;
-    }
-}
-
 /* Responsive Width */
 
 @media (min-width: 1200px) and (max-width: 1440px) {
@@ -774,5 +712,67 @@ header, .navbar {
         height: 15vh;
         margin-left: 16vw;
         width: 30vw;
+    }
+}
+
+/* Responsive Height */
+
+@media (max-height: 852px) {
+
+    /*Slider */
+    .carousel-caption .main-btn {
+        display: none;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 20%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 24px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 16px;
+    }
+}
+
+@media (max-height:710px) {
+    /*Slider */
+
+    #mainSlider .carousel-caption {
+        top: 20%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 24px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 15px;
+    }
+}
+
+@media (max-height:656px) {
+
+    /*Slider */
+    #mainSlider .carousel-caption {
+        top: 25%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 24px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+@media (max-height:582px) {
+    /*Slider */
+
+    #mainSlider .carousel-caption p {
+        font-size: 12px;
     }
 }
