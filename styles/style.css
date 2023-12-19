@@ -327,15 +327,138 @@ header, .navbar {
     text-align: center;
 }
 
-#copy-area .container p{
+#copy-area .container p {
     font-size: 24px;
     color: var(--cor-3);
     margin-bottom: 0;
 }
 
-/* Responsive */
+/* Responsive Width */
 
-@media (min-width: 768px) and (max-width : 1023px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
+    /* Gerais */
+    .container {
+        padding: 3rem 4rem;
+    }
+
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    #navbar-links a {
+        font-size: 22px;
+    }
+
+    /* Slider */
+
+    #mainSlider .carousel-caption {
+        top: 20%;
+    }
+
+    /* Clientes */
+
+    .card {
+        height: 40vh;
+    }
+
+    .client-image {
+        width: 100%;
+    }
+
+    #Adipec, #Ypioca {
+        height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /* Gerais */    
+    .container {
+        padding: 3rem 4rem;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .navbar img {
+        height: 72px;
+    }
+
+    #navbar-links a {
+        font-size: 18px;
+    }
+
+    /* Slider */
+
+    #mainSlider .carousel-caption {
+        top: 15%;
+    }
+
+    /* Clientes */
+
+    .card {
+        height: 40vh;
+    }
+
+    .client-image {
+        width: 100%;
+    }
+    
+    #Adipec, #Ypioca {
+        height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+    /* Gerais */
+    
+    .container {
+        padding: 3rem 2rem;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .navbar img {
+        height: 76px;
+    }
+
+    /* Slider */
+
+    #mainSlider .carousel-caption {
+         top: 15%;
+    }
+
+    /* Clientes */
+
+    .card {
+        height: 20rem;
+    }
+    
+    .client-image {
+         width: 100%;
+    }
+    
+        #Adipec, #Ypioca {
+        height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
 
     /* Gerais */
 
@@ -377,7 +500,7 @@ header, .navbar {
         height: 20vh;
         margin-left: auto;
         margin-right: auto;
-        width: 22vw;
+        width: 20vw;
     }
 }
 
@@ -600,3 +723,44 @@ header, .navbar {
     }
 }
 
+/* Responsive Height */
+
+@media (max-height: 852px) {
+
+    /*Slider */
+    .carousel-caption .main-btn {
+        display: none;
+    }
+}
+
+@media (max-height:710px) {
+    /*Slider */
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 26px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 16px;
+    }
+}
+
+@media (max-height:656px) {
+    /*Slider */
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 24px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 15px;
+    }
+}
+
+@media (max-height:582px) {
+    /*Slider */
+
+    #mainSlider .carousel-caption p {
+        font-size: 14px;
+    }
+}
