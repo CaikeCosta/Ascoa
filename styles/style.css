@@ -68,11 +68,8 @@ header, .navbar {
 }
 
 .parallax {
-    min-height: 90vh;
-}
-
-#mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 95vh;
+    min-height: 95vh;
+    margin-bottom: 5vh;
 }
 
 #mainSlider .carousel-caption {
@@ -573,6 +570,10 @@ header, .navbar {
         font-size: 32px;
     }
 
+    .carousel-caption .main-btn {
+        display: none;
+    }
+
     /* Services */
 
     .service-box p {
@@ -663,7 +664,7 @@ header, .navbar {
     }
 
     .carousel-caption .main-btn {
-        font-size: 14px;
+        display: none;
     }
 
     /* Sobre */
@@ -723,12 +724,16 @@ header, .navbar {
     }
 
     #mainSlider .carousel-caption h2 {
-        font-size: 26px;
+        font-size: 1.5rem;
     }
 
     #mainSlider .carousel-caption p {
-        font-size: 17px;
-        margin-bottom: 3rem;
+        font-size: 1.1rem;
+        margin-bottom: 5vh;
+    }
+
+    .carousel-caption .main-btn {
+        display: none;
     }
 
     /* Sobre */
