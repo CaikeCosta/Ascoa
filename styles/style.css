@@ -76,17 +76,17 @@ header, .navbar {
 }
 
 #mainSlider .carousel-caption {
-    top: 30%;
+    top: 22vh;
 }
 
 #mainSlider .carousel-caption h2 {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 4vh;
 }
 
 #mainSlider .carousel-caption p {
-    font-size: 22px;
+    font-size: 1.8rem;
     font-weight: 300;
     margin-bottom: 100px;
     color: var(--cor-3);
@@ -350,10 +350,15 @@ header, .navbar {
     }
 
     /* Slider */
-
-    #mainSlider .carousel-caption {
-        top: 20%;
+    #mainSlider .carousel-caption h2 {
+        font-size: 2.8rem;
     }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1.6rem;
+        margin-bottom: 5vh;
+    }
+
 
     /* Clientes */
 
@@ -379,6 +384,17 @@ header, .navbar {
         padding: 3rem 4rem;
     }
 
+    /* Slider */
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1.5rem;
+        margin-bottom: 5vh;
+    }
+
     /* Navbar */
 
     .navbar {
@@ -391,12 +407,6 @@ header, .navbar {
 
     #navbar-links a {
         font-size: 18px;
-    }
-
-    /* Slider */
-
-    #mainSlider .carousel-caption {
-        top: 15%;
     }
 
     /* Clientes */
@@ -424,6 +434,17 @@ header, .navbar {
         padding: 3rem 2rem;
     }
 
+    /* Slider */
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1.5rem;
+        margin-bottom: 5vh;
+    }
+
     /* Navbar */
 
     .navbar {
@@ -432,12 +453,6 @@ header, .navbar {
 
     .navbar img {
         height: 76px;
-    }
-
-    /* Slider */
-
-    #mainSlider .carousel-caption {
-         top: 15%;
     }
 
     /* Clientes */
@@ -466,6 +481,17 @@ header, .navbar {
         padding: 2rem 0;
     }
 
+    /* Slider */
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1.4rem;
+        margin-bottom: 5vh;
+    }
+
     /* Navbar */
 
     .navbar {
@@ -476,10 +502,6 @@ header, .navbar {
 
     .parallax {
         width: 100vw;
-    }
-
-    #mainSlider .carousel-caption {
-        top: 15%;
     }
 
     /* Clientes */
@@ -508,6 +530,17 @@ header, .navbar {
         padding: 24px 0;
     }
 
+    /* Slider */
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1.5rem;
+        margin-bottom: 5vh;
+    }
+
     /* Navbar */
     .navbar {
         padding: 10px 30px;
@@ -533,16 +566,11 @@ header, .navbar {
     }
 
     #mainSlider .carousel-caption {
-        top: 20%;
+        top: 15vh;
     }
 
     #mainSlider .carousel-caption h2 {
         font-size: 32px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 20px;
-        margin-bottom: 60px;
     }
 
     /* Services */
@@ -586,6 +614,19 @@ header, .navbar {
     }
 }
 
+@media (min-width: 425px) and (max-width: 604px) {
+
+    /* Slider */
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 1.8rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1.2rem;
+    }
+}
+
 @media (min-width: 375px) and (max-width: 424px) {
 
     /* Gerais */
@@ -609,16 +650,16 @@ header, .navbar {
     }
 
     #mainSlider .carousel-caption {
-        top: 15%;
+        top: 15vh;
     }
 
     #mainSlider .carousel-caption h2 {
-        font-size: 32px;
+        font-size: 1.8rem;
     }
 
     #mainSlider .carousel-caption p {
-        font-size: 18px;
-        margin-bottom: 34px;
+        font-size: 1.1rem;
+        margin-bottom: 5vh;
     }
 
     .carousel-caption .main-btn {
@@ -678,7 +719,7 @@ header, .navbar {
     }
 
     #mainSlider .carousel-caption {
-        top: 10%;
+        top: 10vh;
     }
 
     #mainSlider .carousel-caption h2 {
@@ -712,72 +753,5 @@ header, .navbar {
         height: 15vh;
         margin-left: 16vw;
         width: 30vw;
-    }
-}
-
-/* Responsive Height */
-
-@media (max-height: 852px) {
-
-    /*Slider */
-
-    .parallax {
-        width: 100vw;
-    }
-
-    .carousel-caption .main-btn {
-        display: none;
-    }
-
-    #mainSlider .carousel-caption {
-        top: 20%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 24px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 16px;
-    }
-}
-
-@media (max-height:710px) {
-    /*Slider */
-
-    #mainSlider .carousel-caption {
-        top: 20%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 24px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 15px;
-    }
-}
-
-@media (max-height:656px) {
-
-    /*Slider */
-    #mainSlider .carousel-caption {
-        top: 25%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 24px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 14px;
-    }
-}
-
-@media (max-height:582px) {
-    /*Slider */
-
-    #mainSlider .carousel-caption p {
-        font-size: 12px;
     }
 }
