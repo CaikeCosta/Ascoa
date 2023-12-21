@@ -241,10 +241,12 @@
                         <p>Ou nos deixe uma mensagem</p>
                     </div>
                     <div class="col-md-6" id="contact-form">
-                        <input type="email" class="form-control" placeholder="Seu E-mail" name="email">
-                        <input type="text" class="form-control" placeholder="Assunto" name="subject">
-                        <textarea class="form-control" placeholder="Sua mensagem" name="message" rows="3"></textarea>
-                        <input type="button" class="main-btn" value="Enviar">
+                        <form action="https://formsubmit.co/Josecsilca@ascoabr.com" method="POST">
+                            <input type="email" class="form-control" placeholder="Seu E-mail" name="email" required>
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
+                            <textarea class="form-control" placeholder="Sua mensagem" name="message" rows="3" required></textarea>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
                     </div>
                 </div>
             </div>
