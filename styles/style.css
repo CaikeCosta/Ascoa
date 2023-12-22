@@ -315,6 +315,13 @@ header, .navbar {
     color: var(--cor-4);
 }
 
+#thanksMessage {
+    color: var(--cor-1);
+    font-weight: 500;
+    transition: .4s;
+}
+
+
 /* Copy */
 
 #copy-area {

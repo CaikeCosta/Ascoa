@@ -242,10 +242,12 @@
                     </div>
                     <div class="col-md-6" id="contact-form">
                         <form action="https://formsubmit.co/Josecsilca@ascoabr.com" method="POST">
-                            <input type="email" class="form-control" placeholder="Seu E-mail" name="email" required>
-                            <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
-                            <textarea class="form-control" placeholder="Sua mensagem" name="message" rows="3" required></textarea>
-                            <input type="submit" class="main-btn" value="Enviar">
+                            <input type="email" class="form-control" id="emailForm" placeholder="Seu E-mail" name="email" required>
+                            <input type="text" class="form-control" id="nameForm" placeholder="Seu nome" name="name" required>
+                            <textarea class="form-control" placeholder="Sua mensagem" id="messageForm" name="message" rows="3" required></textarea>
+                            <input type="hidden" name="_captcha" value="false">
+                            <span id="thanksMessage"></span>
+                            <input type="submit" class="main-btn" value="Enviar" id="btnForm">
                         </form>
                     </div>
                 </div>
