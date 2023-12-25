@@ -804,12 +804,29 @@ header, .navbar {
     }
 }
 
-@media (max-width: 767px) and (max-height: 598px) {
-
-    /* Slider */ 
+@media (max-width: 768px) and (max-height: 598px) {
+    #mainSlider .carousel-caption h2 {
+        font-size: 1.8rem;
+    }
 
     #mainSlider .carousel-caption p {
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) and (max-height: 524px) {
+
+    /* Slider */ 
+    #mainSlider .carousel-caption {
+        top: 25vh;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 1.8rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1rem;
     }
 
     .parallax {
@@ -848,6 +865,47 @@ header, .navbar {
 
     #mainSlider .carousel-caption p {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) and (max-height: 660px) {
+    #mainSlider .carousel-caption h2 {
+            font-size: 1.6rem;
+        }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    #about-area img {
+        height: 30vh;
+        width:80vw;
+        margin-bottom: 3vh;
+    }
+}
+
+@media (max-width: 425px) and (max-height: 510px) {
+
+    #mainSlider .carousel-caption {
+        top: 18vh;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 425px) and (max-height: 440px) {
+    #mainSlider .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 0.8rem;
     }
 }
 
