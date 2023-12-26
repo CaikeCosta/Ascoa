@@ -359,7 +359,7 @@ header, .navbar {
      #mainSlider .carousel-caption {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #mainSlider .carousel-caption h2 {
@@ -408,7 +408,7 @@ header, .navbar {
     #mainSlider .carousel-caption {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #mainSlider .carousel-caption h2 {
@@ -471,7 +471,7 @@ header, .navbar {
     #mainSlider .carousel-caption {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #mainSlider .carousel-caption h2 {
@@ -529,7 +529,7 @@ header, .navbar {
     #mainSlider .carousel-caption {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #mainSlider .carousel-caption h2 {
@@ -538,7 +538,7 @@ header, .navbar {
 
     #mainSlider .carousel-caption p {
         font-size: 2.6vh;
-        margin-bottom: 5vh;
+        margin-bottom: 2vh;
     }
 
     #mainSlider .carousel-caption .main-btn {
@@ -589,7 +589,7 @@ header, .navbar {
     #mainSlider .carousel-caption {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #mainSlider .carousel-caption h2 {
@@ -680,7 +680,7 @@ header, .navbar {
     #mainSlider .carousel-caption {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #mainSlider .carousel-caption h2 {
@@ -747,7 +747,7 @@ header, .navbar {
     #mainSlider .carousel-caption {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #mainSlider .carousel-caption h2 {
