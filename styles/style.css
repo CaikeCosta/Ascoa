@@ -444,8 +444,8 @@ header, .navbar {
 
     /* Clientes */
 
-    .card {
-        height: 40vh;
+    .card  {
+        height: 20rem;
     }
 
     .client-image {
@@ -453,7 +453,7 @@ header, .navbar {
     }
     
     #Adipec, #Ypioca {
-        height: 20vh;
+        height: 10rem;
         margin-left: auto;
         margin-right: auto;
         width: 20vw;
@@ -638,20 +638,25 @@ header, .navbar {
 
     /* Clientes */
 
-        .card {
-            width: 50vw;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    #contact-title::after {
+        margin-top: 1.5rem;
+    }
+
+    .card {
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
-        #Adipec, #Ypioca {
-            height: 20vh;
-            margin-left: 10vw;
-            width: 30vw;
-        }
+    #Adipec, #Ypioca {
+        height: 10rem;
+        margin-left: 25%;
+        width: 30vw;
+    }
 
     #Adipec {
-        width: 156px;
+        width: 75%;
+        margin-left: 12%;
     }
 
     #Campari {
